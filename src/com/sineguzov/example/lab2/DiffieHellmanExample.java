@@ -20,8 +20,7 @@ public class DiffieHellmanExample {
         return this.g.modPow(b, p);
     }
 
-    public BigInteger aliceCalculationOfKey
-            (BigInteger bobMessage, BigInteger aliceSecretNumber){
+    public BigInteger aliceCalculationOfKey(BigInteger bobMessage, BigInteger aliceSecretNumber){
         return bobMessage.modPow(aliceSecretNumber, this.p);
     }
 

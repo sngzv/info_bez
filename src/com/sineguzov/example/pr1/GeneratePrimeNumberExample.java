@@ -6,7 +6,7 @@ import java.util.List;
 public class GeneratePrimeNumberExample {
 
     public static void main(String[] args) {
-        System.out.println(primeNumbersGenerator(100));
+        System.out.println(primeNumbersGenerator(10));
     }
 
     public static List<Integer> primeNumbersGenerator(int n) {
